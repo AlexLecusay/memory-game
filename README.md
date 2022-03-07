@@ -45,8 +45,10 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![](![preview, press start](https://user-images.githubusercontent.com/90231709/156960519-238b269f-0ccd-45f7-a540-92a121bdfc4b.gif)
-![](![Timer](https://user-images.githubusercontent.com/90231709/156960573-2a4d54d4-ffaf-4ef2-8874-afd2f205af3d.gif)
+
+Shows landing page of the game, and some basic functionality.(![Intro](https://user-images.githubusercontent.com/90231709/156960972-d56d7e21-5f78-4104-afb6-71f8b91ccf42.gif)
+
+![test](![Timer](https://user-images.githubusercontent.com/90231709/156960573-2a4d54d4-ffaf-4ef2-8874-afd2f205af3d.gif)
 ![](![Incorrect](https://user-images.githubusercontent.com/90231709/156960586-74f90e0d-eac1-4e99-b8c5-10a6ad670e7e.gif)
 ![](gif4-link-here)
 
