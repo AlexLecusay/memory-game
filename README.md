@@ -46,24 +46,33 @@ The following **additional** features are implemented:
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
 
-Shows landing page of the game, and some basic functionality.(![Intro](https://user-images.githubusercontent.com/90231709/156960972-d56d7e21-5f78-4104-afb6-71f8b91ccf42.gif)
+Shows landing page of the game, and some basic functionality.
 
-![test](![Timer](https://user-images.githubusercontent.com/90231709/156960573-2a4d54d4-ffaf-4ef2-8874-afd2f205af3d.gif)
-![](![Incorrect](https://user-images.githubusercontent.com/90231709/156960586-74f90e0d-eac1-4e99-b8c5-10a6ad670e7e.gif)
+![Intro](https://user-images.githubusercontent.com/90231709/156960972-d56d7e21-5f78-4104-afb6-71f8b91ccf42.gif)
+
+Shows the timer being run down to 0.
+
+![Timer](https://user-images.githubusercontent.com/90231709/156960573-2a4d54d4-ffaf-4ef2-8874-afd2f205af3d.gif)
+
+Shows user losing 3 lives.
+![Incorrect](https://user-images.githubusercontent.com/90231709/156960586-74f90e0d-eac1-4e99-b8c5-10a6ad670e7e.gif)
+
 ![](gif4-link-here)
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-[YOUR ANSWER HERE]
+    -https://www.w3schools.com/
+    -http://soundfxcenter.com/sound_effect/search.php?sfx=Mortal+Kombat (Some sound fx)
+    -Peers who have completed the Site program before, for feedback.
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-[YOUR ANSWER HERE]
+    picture moving.....
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+    react, css frameworks aswell.....
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+    if not for school, keep track of sequence so far, and display total sequence count achevied before loss/ or win (6/8)
 
 
 
