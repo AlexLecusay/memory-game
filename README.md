@@ -46,11 +46,8 @@ The following **additional** features are implemented:
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
 ![](![preview, press start](https://user-images.githubusercontent.com/90231709/156960519-238b269f-0ccd-45f7-a540-92a121bdfc4b.gif)
-)
 ![](![Timer](https://user-images.githubusercontent.com/90231709/156960573-2a4d54d4-ffaf-4ef2-8874-afd2f205af3d.gif)
-)
 ![](![Incorrect](https://user-images.githubusercontent.com/90231709/156960586-74f90e0d-eac1-4e99-b8c5-10a6ad670e7e.gif)
-)
 ![](gif4-link-here)
 
 ## Reflection Questions
