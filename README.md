@@ -34,15 +34,23 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* User can use the name of the character to remember the pattern aswell.
-- [ ] List anything else that you can get done to improve the app!
+* [✓] The Mortal Kombat announcer says "Fight" before timer begins.
+* [✓] Each game button has its own sound, correlating with its character image.
+* [✓] Timer appears when game begins, and disappears when game ends.
+* [✓] All characters are shown when game is first loaded. But when the game begins, they hide.
+* [✓] Clue hold time is random each game
+
+
 
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![](gif1-link-here)
-![](gif2-link-here)
-![](gif3-link-here)
+![](![preview, press start](https://user-images.githubusercontent.com/90231709/156960519-238b269f-0ccd-45f7-a540-92a121bdfc4b.gif)
+)
+![](![Timer](https://user-images.githubusercontent.com/90231709/156960573-2a4d54d4-ffaf-4ef2-8874-afd2f205af3d.gif)
+)
+![](![Incorrect](https://user-images.githubusercontent.com/90231709/156960586-74f90e0d-eac1-4e99-b8c5-10a6ad670e7e.gif)
+)
 ![](gif4-link-here)
 
 ## Reflection Questions
