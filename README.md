@@ -38,7 +38,7 @@ The following **additional** features are implemented:
 * [✓] Each game button has its own sound, correlating with its character image.
 * [✓] Timer appears when game begins, and disappears when game ends.
 * [✓] All characters are shown when game is first loaded. But when the game begins, they hide.
-* [✓] Clue hold time is random each game
+* [*] Clue hold time is random each game
 
 
 
@@ -66,14 +66,26 @@ Shows user losing 3 lives.
     -Peers who have completed the Site program before, for feedback.
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-    picture moving.....
+    When I first created my buttons, I thought they were amazing and I was excited to see it light up and work. But I knew if I wanted to set myself apart from other 
+candidates applying I needed to stand out. So my first idea was to integrate my favorite game from my childhood, Mortal Kombat. Now the issue arose when i was trying to 
+embed an image, within the actual button. By making this image hidden I was able to place it inside the button without being noticed, but would only show with the javascript
+functions to make the image appear on click. Though when the image finally appeared, it was shifting all of the buttons below and to the side a but in the Y axis. Now I know
+I did not want to have this issue in the final version of the game, so I began to play around with the css and look online for possibly others with my same issue. I ended up 
+being able to solve the problem on my own, with just adjusting the values in the css to make the image mold the button better. Thus not causing any shifting, and letting the
+design look as intended.
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-    react, css frameworks aswell.....
+    Seeing how to alter ther HTML within the javascript functions, I would like to get more hands on with learning and practicing react hooks. Knowing React is one of the 
+most used frameworks, I have worked on a couple projects in the past developing the front end. But I hadnt used Hooks to change how the component would be rendered on the
+virtual dom. Now my interest is leaning heavily towards learning more React, and what makes it differ from other frameworks like Angular and Vue. Integrating a database as
+well as communicating with the backend is a must in the size of todays technologies, so learning express and node in tandem with Mongo is very exciting.
 
-4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-    if not for school, keep track of sequence so far, and display total sequence count achevied before loss/ or win (6/8)
-
+4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be 
+specific. (recommended 100 - 300 words) 
+    If not for having to focus on school aswell, I would of implemented a way to keep track of sequence so far. That way the user can get the feedback of how many they got in a
+row, before they either won or lost. This would improve the user experience of the game, because it gives the user important feedback to know how well they did. This would also
+incentivize the user to come back and play again to top their score. The final feature I would of implemented is a top 5 scoreboard, that would display the top 5 longest memory
+sequences.
 
 
 ## Interview Recording URL Link
