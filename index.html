@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Light and Sound Memory Game!</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <img
+      id="logo"
+      src="https://cdn.glitch.global/700a63c3-dbca-4829-bb5a-3b138e27e6c8/140-1400438_mortal-kombat-mortal-kombat-11-logo-png-transparent.png?v=1646362434156"
+    />
+    <h1 class="title">Kan you remember all fighters?</h1>
+    <p>
+      Keep track of the different fighters on screen, and the order that they
+      appear. Then repeat the order back, careful you only have 3 lives !
+    </p>
+    <div id="buttons">
+      <button id="startBtn" onclick="startGame()">
+        Fight !
+        <audio
+          intro
+          src="https://cdn.glitch.global/700a63c3-dbca-4829-bb5a-3b138e27e6c8/8d82b5_MK_vs_DCU_Round_One_Sound_Effect.mp3?v=1646406915813"
+          id="intro"
+        ></audio>
+      </button>
+      <button class="hidden" id="stopBtn" onclick="stopGame()">Surrender</button>
+    </div>
+    <div id="hearts">
+      <img
+        id="heart1"
+        src="https://cdn.glitch.global/700a63c3-dbca-4829-bb5a-3b138e27e6c8/heart.png?v=1646419000275"
+      />
+      <img
+        id="heart2"
+        src="https://cdn.glitch.global/700a63c3-dbca-4829-bb5a-3b138e27e6c8/heart.png?v=1646419000275"
+      />
+      <img
+        id="heart3"
+        src="https://cdn.glitch.global/700a63c3-dbca-4829-bb5a-3b138e27e6c8/heart.png?v=1646419000275"
+      />
+    </div>
+
+    <div id="timer" class="hidden"></div>
+    <div id="game-section">
+      <button
+        id="button1"
+        onclick="guess(1)"
+        onmousedown="startTone(1), showImage(1)"
+        onmouseup="stopTone(), stopImage(1)"
+      >
+        <img
+          id="picture1"
+          src="https://cdn.glitch.global/700a63c3-dbca-4829-bb5a-3b138e27e6c8/scorpion.png?v=1646366769363"
+          alt="Scorp"
+        />
+        <audio
+          scorp
+          src="https://cdn.glitch.global/700a63c3-dbca-4829-bb5a-3b138e27e6c8/scorp.mp3?v=1646407679362"
+          id="audio1"
+        ></audio>
+      </button>
+      <button
+        id="button2"
+        onclick="guess(2)"
+        onmousedown="startTone(2), showImage(2)"
+        onmouseup="stopTone(), stopImage(2)"
+      >
+        <img
+          id="picture2"
+          src="https://cdn.glitch.global/700a63c3-dbca-4829-bb5a-3b138e27e6c8/johnnycage.png?v=1646366764769"
+          alt="Cage"
+        />
+        <audio
+          cage
+          src="https://cdn.glitch.global/700a63c3-dbca-4829-bb5a-3b138e27e6c8/cage.mp3?v=1646407670956"
+          id="audio2"
+        ></audio>
+      </button>
+      <button
+        id="button3"
+        onclick="guess(3)"
+        onmousedown="startTone(3), showImage(3)"
+        onmouseup="stopTone(), stopImage(3)"
+      >
+        <img
+          id="picture3"
+          src="https://cdn.glitch.global/700a63c3-dbca-4829-bb5a-3b138e27e6c8/subzero.png?v=1646366771142"
+          alt="Sub"
+        />
+        <audio
+          sub
+          src="https://cdn.glitch.global/700a63c3-dbca-4829-bb5a-3b138e27e6c8/sub.mp3?v=1646407682385"
+          id="audio3"
+        ></audio>
+      </button>
+      <button
+        id="button4"
+        onclick="guess(4)"
+        onmousedown="startTone(4), showImage(4)"
+        onmouseup="stopTone(), stopImage(4)"
+      >
+        <img
+          id="picture4"
+          src="https://cdn.glitch.global/700a63c3-dbca-4829-bb5a-3b138e27e6c8/raiden.png?v=1646366767948"
+          alt="Raiden"
+        />
+        <audio
+          raiden
+          src="https://cdn.glitch.global/700a63c3-dbca-4829-bb5a-3b138e27e6c8/raiden.mp3?v=1646407675843"
+          id="audio4"
+        ></audio>
+      </button>
+      <button
+        id="button5"
+        onclick="guess(5)"
+        onmousedown="startTone(5), showImage(5)"
+        onmouseup="stopTone(), stopImage(5)"
+      >
+        <img
+          id="picture5"
+          src="https://cdn.glitch.global/700a63c3-dbca-4829-bb5a-3b138e27e6c8/kano.png?v=1646366761582"
+          alt="Kano"
+        />
+        <audio
+          kano
+          src="https://cdn.glitch.global/700a63c3-dbca-4829-bb5a-3b138e27e6c8/kano.mp3?v=1646407667213"
+          id="audio5"
+        ></audio>
+      </button>
+      <button
+        id="button6"
+        onclick="guess(6)"
+        onmousedown="startTone(6), showImage(6)"
+        onmouseup="stopTone(), stopImage(6)"
+      >
+        <img
+          id="picture6"
+          src="https://cdn.glitch.global/700a63c3-dbca-4829-bb5a-3b138e27e6c8/liu.png?v=1646366766250"
+          alt="Liu"
+        />
+        <audio
+          liu
+          src="https://cdn.glitch.global/700a63c3-dbca-4829-bb5a-3b138e27e6c8/liu.mp3?v=1646407673835"
+          id="audio6"
+        ></audio>
+      </button>
+    </div>
+    <br>
+    <br>
+    <div></div>
+  </body>
+</html>
