@@ -86,10 +86,7 @@ well as communicating with the backend is a must in the size of todays technolog
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be 
 specific. (recommended 100 - 300 words) 
 
-    If not for having to focus on school aswell, I would of implemented a way to keep track of sequence so far. That way the user can get the feedback of how many they got in a
-row, before they either won or lost. This would improve the user experience of the game, because it gives the user important feedback to know how well they did. This would also
-incentivize the user to come back and play again to top their score. The final feature I would of implemented is a top 5 scoreboard, that would display the top 5 longest memory
-sequences.
+   If not for having to focus on exams in school aswell, I would of implemented a way to keep track of sequence so far. That way the user can get the feedback of how many they got in a row, before they either won or lost. This would improve the user experience of the game, because it gives the user important feedback to know how well they did. This would also incentivize the user to come back and play again to top their score. The final feature I would of implemented is a top 5 scoreboard, that would display the top 5 longest memory sequences.
 
 
 ## Interview Recording URL Link
